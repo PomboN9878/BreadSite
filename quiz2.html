@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="forms.css">
+    <!--Este comando chama o arquivo de estilo-->
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Gatinhos e +</h1>
+        </div>
+        <div>
+            <h1>Miau Miau</h1>
+        </div>
+    </header>
+    <nav>
+        <a href="quiz.html">Quiz</a>
+        <a href="quiz2.html">Horosclopo</a>
+        <a href="adotar.html">Adotar</a>
+        <a href="doar.html">Doar</a>
+        <a href="petshop.html">PetShop</a>
+        <a href="servs.html">Serviços</a>
+    </nav>
+    <main>
+        <div id="bow">
+            <form name="quiz">
+                <p>
+                    Qual e o seu signo? <br>
+                    <input type="radio" name="q1" onchange="corrigir()"> Áries       <span id="res1"></span><br>
+                    <input type="radio" name="q1" onchange="corrigir()"> Touro       <span id="res2"></span><br>
+                    <input type="radio" name="q1" onchange="corrigir()"> Gemeos      <span id="res3"></span><br>
+                    <input type="radio" name="q1" onchange="corrigir()"> Cancer      <span id="res4"></span><br>
+                    <input type="radio" name="q1" onchange="corrigir()"> Leão        <span id="res5"></span><br>
+                    <input type="radio" name="q1" onchange="corrigir()"> Virgem      <span id="res6"></span><br>
+                    <input type="radio" name="q1" onchange="corrigir()"> Libra       <span id="res7"></span><br>
+                    <input type="radio" name="q1" onchange="corrigir()"> Escorpião   <span id="res8"></span><br>
+                    <input type="radio" name="q1" onchange="corrigir()"> Sagitario   <span id="res9"></span><br>
+                    <input type="radio" name="q1" onchange="corrigir()"> Capricornio <span id="res10"></span><br>
+                    <input type="radio" name="q1" onchange="corrigir()"> Aquario     <span id="res11"></span><br>
+                    <input type="radio" name="q1" onchange="corrigir()"> Peixes      <span id="res12"></span><br>
+                </p>
+            </form>
+            
+        </div>
+    </main>
+    <footer>
+        <p>Copyright &copy; André F.</p>
+    </footer>
+    <script src="val2.js"></script>
+</body>
+
+</html>

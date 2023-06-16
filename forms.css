@@ -1,0 +1,28 @@
+form {
+    width: 100%;
+    text-align: left;
+    line-height: 2;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+div#bow {
+    width: 100%;
+}
+form p {
+    margin-bottom: 20px;
+    font-family: 'Quicksand';
+}
+
+
+
+input[type=button] {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Quicksand';
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888;
+    cursor: pointer;
+}

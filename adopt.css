@@ -1,0 +1,41 @@
+* {
+    margin: 0 auto;
+}
+
+form {
+    background-color: #c0c0c0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    line-height: 2;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+form label, span {
+    font-family: 'Quicksand';
+}
+
+form input, select{
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: 0px;
+    font-family: 'Quicksand';
+    font-size: 15px;
+}
+
+input#bairro, input#cep {
+    margin-right: 100px;
+}
+
+input#telefone {
+    margin-right: 17px;
+}
+
+input[type=radio] {
+    margin: 0px;
+    padding: 0px;
+}

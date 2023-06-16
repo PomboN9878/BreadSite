@@ -1,0 +1,144 @@
+/* Aqui onde será os codigos de estilo */
+/* Para computador desktop */
+* {
+    margin: 0 auto;
+}
+
+header,
+nav,
+main {
+    padding: 10px;
+}
+
+header,
+footer {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    background-color: #d9d9d9;
+    font-family: "Quicksand";
+}
+
+footer {
+    height: 70px;
+    align-items: center;
+}
+
+header div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background-color: #ededed;
+}
+
+header div h1 {
+    font-family: "Quicksand";
+    font-size: 4vw;
+}
+
+nav {
+    width: 90%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #c4c4c4;
+}
+
+nav a {
+    font-family: "Quicksand";
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div#div1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+div#div1 div {
+    flex: 1;
+    text-align: center;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+div#div1 div img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+div#div1 div a {
+    text-decoration: none;
+    color: white;
+}
+
+div#div1 div a p {
+    margin: 10px;
+    text-align: justify;
+    font-size: 1.2em;
+    font-family: Arial;
+}
+
+div#v {
+    background-color: #7d161f;
+}
+
+div#g {
+    background-color: #6bbd46;
+}
+
+div#o {
+    background-color: #faa423;
+}
+
+p#res {
+    columns: blue;
+    padding: 15px;
+}
+
+/*  Para celular */
+
+@media only screen and (max-width: 600px) {
+
+    header,
+    nav,
+    main {
+        width: 100%;
+    }
+
+    header {
+        flex-direction: column;
+        height: 150px;
+    }
+
+    header div {
+        background-color: #d9d9d9;
+    }
+
+    header div h1 {
+        font-size: 30px;
+        color: red;
+    }
+
+    nav {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    div#div1 {
+        flex-direction: column;
+        width: 90%;
+    }
+
+}
